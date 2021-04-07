@@ -18,7 +18,7 @@ var xhr = new XMLHttpRequest();
 
 var room = prompt('Enter room name:');
 
-var socket = io('https://www.gonnavis.com/');
+var socket = io('https://192.168.2.111/');
 socket.connect()
 
 var socketLocal = io('/');

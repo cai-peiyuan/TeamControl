@@ -5,8 +5,8 @@ var https = require('https')
 var fs=require('fs')
 var socketIO = require('socket.io');
 var options = {
-  key: fs.readFileSync('2279791_gonnavis.com.key'),
-  cert: fs.readFileSync('2279791_gonnavis.com.pem'),
+  key: fs.readFileSync('3572179_www.bohaigaoke.com.key'),
+  cert: fs.readFileSync('3572179_www.bohaigaoke.com.pem'),
 }
 var fileServer = new(nodeStatic.Server)();
 var app = https.createServer(options,function(req, res) {
